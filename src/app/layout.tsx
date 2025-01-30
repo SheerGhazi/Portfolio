@@ -28,12 +28,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="display w-full h-[100vh] mt-3  flex flex-col md:flex-row">
-          <div className="w-full md:w-[25%]  bg-secondary ">
+        <div className="display w-full h-[100vh]   flex flex-col xl:flex-row ">
+          <div className="w-full xl:w-[25%]  bg-secondary mt-3 md:px-40 xl:px-0 ">
             <Sidebar/>
           </div>
-          <div className="w-full md:w-[75%] flex flex-col">
-            <div className="overflow-auto h-[100%] scrollbar-custom ">
+          <div className="w-full xl:w-[75%] flex flex-col">
+            <div className="overflow-auto h-[100%] scrollbar-custom md:px-40 ">
               {children}
             </div>
           </div>

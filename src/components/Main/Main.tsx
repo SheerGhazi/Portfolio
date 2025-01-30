@@ -1,11 +1,15 @@
 import React from 'react'
 import Introduction from './Introduction'
+import Resume from './Resume'
+import About from './About'
 
 const Main = () => {
   return (
-    <div >
+    <div className='pt-10  pb-40 '  >
       <Introduction/>
-      <h1 className='text-left font-extralight text-4xl'>Every great design begin with an even <span>better story</span></h1>
+      <About/>
+      <Resume/>
+     
     </div>
   )
 }

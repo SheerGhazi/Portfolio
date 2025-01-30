@@ -7,7 +7,7 @@ import { Mail } from "lucide-react";
 
 
 const Sidebar = () => {
-  return <div className="h-fit border border-[#565656]  m-4 p-6 rounded-3xl  md:h-fit">
+  return <div className="h-fit border border-[#565656] mt-6 mx-4 mb-4 p-6 rounded-3xl flex flex-col gap-7  md:h-fit">
     <SidebarHeader/>
     <SidebarMain/>
     <SidebarLinks/>
