@@ -8,12 +8,12 @@ interface IProps {
 
 const BtnSecondary = ({ title, Icon }: IProps) => {
   return (
-    <a href="/" className="inline-block">
-      <div className="flex items-center gap-2 px-4 py-1 bg-zinc-900 text-zinc-300  border border-[#565656] rounded-3xl transition-all ">
+    
+      <div className="flex items-center  gap-2 px-4 py-1 w-fit bg-zinc-900 text-zinc-300   border border-[#565656] rounded-3xl transition-all ">
         {Icon && <Icon size={20} />} {/* Render icon only if provided */}
-        <button>{title}</button>
+        <button className="cursor-text">{title}</button>
       </div>
-    </a>
+
   );
 };
 
